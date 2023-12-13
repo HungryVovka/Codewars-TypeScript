@@ -1,16 +1,16 @@
 // -----------------------------------------------------------
-// Complete the square sum function so that it squares each number passed into it and then sums the results together.
+// We need a function that can transform a number (integer) into a string.
 // 
-// For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9.
+// What ways of achieving this do you know?
+// 
+// Examples (input --> output):
+// 123  --> "123"
+// 999  --> "999"
+// -100 --> "-100"
 // -----------------------------------------------------------
 
-export function squareSum(numbers: number[]): number {
-	let sums: number = 0;
-	for (let i: number = 0; i < numbers.length; i++){
-		let num: number = numbers[i] * numbers[i];
-		sums = sums + num;
-	}
-	return sums;
+export function numberToString(num: number): string {
+	return num.toString();
 }
 
 // -----------------------------------------------------------

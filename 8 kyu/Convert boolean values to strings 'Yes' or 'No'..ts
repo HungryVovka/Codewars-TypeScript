@@ -1,17 +1,10 @@
 // -----------------------------------------------------------
-// Complete the square sum function so that it squares each number passed into it and then sums the results together.
-// 
-// For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9.
+// Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
 // -----------------------------------------------------------
 
-export function squareSum(numbers: number[]): number {
-	let sums: number = 0;
-	for (let i: number = 0; i < numbers.length; i++){
-		let num: number = numbers[i] * numbers[i];
-		sums = sums + num;
-	}
-	return sums;
-}
+export const boolToWord = (bool: boolean): string => {
+	return bool === false ? "No" : "Yes";
+};
 
 // -----------------------------------------------------------
 // License

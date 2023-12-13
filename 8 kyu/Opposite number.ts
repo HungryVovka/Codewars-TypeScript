@@ -1,16 +1,17 @@
 // -----------------------------------------------------------
-// Complete the square sum function so that it squares each number passed into it and then sums the results together.
+// Very simple, given an integer or a floating-point number, find its opposite.
 // 
-// For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9.
+// Examples:
+// 
+// 1: -1
+// 14: -14
+// -34: 34
 // -----------------------------------------------------------
 
-export function squareSum(numbers: number[]): number {
-	let sums: number = 0;
-	for (let i: number = 0; i < numbers.length; i++){
-		let num: number = numbers[i] * numbers[i];
-		sums = sums + num;
+export class Kata {
+	static opposite(n: number) {
+		return (0 - n);
 	}
-	return sums;
 }
 
 // -----------------------------------------------------------

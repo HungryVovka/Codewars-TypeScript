@@ -57,4 +57,8 @@ export function comp(a1: number[] | null, a2: number[] | null): boolean {
 // (https://github.com/HungryVovka/Codewars-TypeScript)
 // 
 // License is GNU General Public License v3.0
+// (https://github.com/HungryVovka/Codewars-TypeScript/blob/main/LICENSE)
+// 
+// You should have received a copy of the GNU General Public License v3.0
+// along with this code. If not, see http://www.gnu.org/licenses/
 // -----------------------------------------------------------
